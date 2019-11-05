@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "less",
     libraryDependencies ++= logging,
+    libraryDependencies ++= jetty,
     libraryDependencies += scalaTest % Test
   )
 
